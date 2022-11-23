@@ -103,3 +103,44 @@ h2 {
 .read-the-docs {
   color: #888;
 }
+
+.pagination-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.pagination-number-container {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.page-number {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pagination-prev-netx {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  background-color: rgb(64, 163, 75);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-active {
+  background-color: rgb(64, 163, 75);
+}
